@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #57a4f1;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: white;
+}
+
+img {
+    width: 200px;
+    padding: 10px;
+}
+
+main {
+    background-color: white;
+    width: 800px;
+    margin: 10px auto 0 auto;
+    border-radius: 10px;
+    padding: 15px 50px 50px 50px;
+}
+/*----- button -----*/
+
+.button {
+    border: none;
+    background-color: #57a4f1;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    
+  }
+
+  .button-white {
+    border: solid 1px rgb(168, 165, 165);
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    
+  }
+/*------ lists -----*/
+h3 {
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+.todo-item{
+    padding-bottom: 20px;
+}
+
+.todo-item-text {
+    display: inline;
+    margin-left: 8px;
+    margin-right: 3px;
+}
+
+.todo-item-icon-v {
+    display: inline-block;
+    border: 1px solid green;
+    color: green;
+    border-radius: 100%;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.todo-item-icon-x {
+    display: inline-block;
+    border: 1px solid red;
+    color: red;
+    border-radius: 100%;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.todo-item-tag-edit {
+    background-color: #57a4f1;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.todo-item-tag-q1 {
+    background-color: #AB5DE6;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.todo-item-tag-rec {
+    background-color: #2CC6AB;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.todo-item-tag-mob {
+    background-color: #FF9B00;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.todo-item-tag-web {
+    background-color: #EC4A9D;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.todo-item-tag-sal {
+    background-color: #A3D116;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
