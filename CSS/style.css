@@ -6,11 +6,11 @@
 
 }
 
+/* layout */
 body {
     background-color: #f6f8f9;
 }
 
-/* Header */
 .header {
     background-color: white;
     padding: 10px 20px;
@@ -22,16 +22,24 @@ h1 {
     vertical-align: middle;
 }
 
+ul {
+    padding-top: 20px;
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+}
+
+li {
+    padding-bottom: 10px;
+    list-style: none;
+}
+
+
+
 header img {
     width: 50px;
     vertical-align: middle;
-
 }
 
-/* Button */
-
-
-/* Section Add */
 .sc-add {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -41,6 +49,18 @@ header img {
     margin: 30px auto 5px;
 }
 
+.sc-task {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: white;
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-left: 25px;
+}
+
+/*           OGGETTI         */
+/* Pulsanti */
 .btn-add {
     padding: 15px 0 15px 25px;
 }
@@ -52,6 +72,7 @@ header img {
     padding: 4px 8px;
     border-radius: 10px;
     border: 1px solid;
+    cursor: pointer;
 }
 
 .btn-white {
@@ -61,4 +82,77 @@ header img {
     padding: 4px 8px;
     border-radius: 10px;
     border: 1px solid;
+    cursor: pointer;
+}
+
+/* Check / cross */
+.circle {
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.check {
+    border-color: green;
+    color: green;
+}
+
+.cross {
+    border-color: red;
+    color: red;
+}
+
+/* tag */
+.tag-editorial {
+    background-color: #47ADF1;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+
+}
+
+.tag-q1 {
+    background-color: #9c72e4;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+
+.tag-recruting {
+    background-color: #64c0a9;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+
+.tag-mobile {
+    background-color: #f29e33;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+
+.tag-website {
+    background-color: #d863a1;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+
+.tag-sales {
+    background-color: #b0c926;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-size: 0.8rem;
 }
