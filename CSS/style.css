@@ -28,9 +28,37 @@ header img {
 
 }
 
-/* Section Add*/
+/* Button */
+
+
+/* Section Add */
 .sc-add {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     background-color: white;
-    width: 800px;
+    width: 80%;
+    max-width: 900px;
     margin: 30px auto 5px;
+}
+
+.btn-add {
+    padding: 15px 0 15px 25px;
+}
+
+.btn-blue {
+    background-color: #47ADF1;
+    border-color: #47ADF1;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.btn-white {
+    background-color: white;
+    border-color: grey;
+    color: grey;
+    padding: 4px 8px;
+    border-radius: 10px;
+    border: 1px solid;
 }
