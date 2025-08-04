@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background-color: #f6f8f9;
+}
+
+/* Header */
+.header {
+    background-color: white;
+    padding: 10px 20px;
+}
+
+h1 {
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header img {
+    width: 50px;
+    vertical-align: middle;
+
+}
+
+/* Section Add*/
+.sc-add {
+    background-color: white;
+    width: 800px;
+    margin: 30px auto 5px;
+}
